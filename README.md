@@ -11,10 +11,6 @@ services:
       - 5000:5000
     volumes:
       - ./src:/src
-    build: 
-      context: .
-      dockerfile: Dockerfile
-
 ```
 
 Then simply run: 
